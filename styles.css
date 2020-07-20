@@ -17,12 +17,16 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 ul {
   list-style: none;
+}
+
+footer a {
+  color: rgb(14, 10, 10);
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .bottoma-style:hover {
@@ -361,6 +365,7 @@ figure {
 .bootomli2 {
   font-size: 13px;
   font-weight: 700;
+  color: rgb(0, 0, 0);
 }
 
 .bootomli1,
@@ -381,6 +386,10 @@ figure {
   padding: 10px 0;
   border-top: 1px solid rgb(184, 180, 180);
   font-size: 16px;
+}
+
+.plinksection a {
+  color: black;
 }
 
 /* comments Button Section */
@@ -471,13 +480,18 @@ figure {
 .endlink {
   display: flex;
   justify-content: space-around;
-  margin: 30px 20px;
+  margin: 30px 20px 130px 20px;
   font-size: 10px;
   padding-top: 10px;
   border-top: 1px solid rgb(187, 184, 184);
 }
 
 footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: #fff;
   display: flex;
   height: 60px;
   padding-top: 10px;
