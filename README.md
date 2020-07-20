@@ -2,7 +2,7 @@
 
 > This is a copy of a specific article featured in The New York Times on 18 March 2014.
 
-<img src="images/youtube-clone-home.png">
+<img src=("https://github.com/LamiaSristy/nytimes-clone/blob/feature1/screencapture-rawcdn-githack-LamiaSristy-nytimes-clone-7d2a29e01ee9a7318f301de67f95a5e568b3ee5b-index-html-2020-07-20-15_59_49.png")>
 
 ## Built With
 
