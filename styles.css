@@ -15,7 +15,14 @@ main{
 }
 a{
     color: rgb(61, 90, 109);
+    text-decoration: none;
 }
+
+a:hover{
+    text-decoration: underline 
+}
+
+
 ul {
     list-style: none;
 }
@@ -391,6 +398,11 @@ figure {
 .linkcolumn-styles{
     font-size: 12.5px;
     margin: 10px;
+    color: black;
+}
+
+.linkcolumn-styles a{
+    color: black;
 }
 
 .bottomlinksideBar-style{
