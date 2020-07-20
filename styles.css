@@ -1,5 +1,5 @@
 * {
-    box-shadow: border-box;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -112,6 +112,7 @@ figure {
 .figtextextrastyle{
     font-size: 14px;
     color: rgb(184, 178, 178);
+   
 }
 /* mainArear Flex  */
 .mainareaflex-container{
@@ -233,6 +234,7 @@ figure {
 }
 .articlegapP-style{
     margin-left: 35px;
+    font-size: 14px;
 }
 
 /* GraphicImageDiv */
@@ -338,14 +340,14 @@ figure {
 
 .link-section{
     border-top: 1px solid black;
-    margin-left: 10px;
-    float: right;
-   
+    margin-left: 40px;  
+    align-content: flex-end;
+    padding-left: 25px;
 }
 .plinksection{
     margin-top: 10px;
-    padding-top: 10px;
-    border-top: 1px solid black;
+    /* padding: 15px 0; */
+    border-top: 1px solid rgb(184, 180, 180);
     font-size: 16px;
 }
 
@@ -370,9 +372,13 @@ figure {
 .bottom-links{
    margin-top: 20px;
    margin-left: 150px;
-   border-top: 2px solid grey;
+   border-top: 2px outset grey;
    width: 80%;
    display: inline-block;
+   padding-top: 15px;
+}
+.linktoHomePage{
+    float: right;
 }
 .links-styles{   
     display: flex;
@@ -401,20 +407,24 @@ figure {
     font-size: 13px;
 }
 .bottomlinksidebaratag-style{
-    font-size: 10px;
-    /* padding-top: 20px; */
+    font-size: 10px;   
     color: black;
-    margin-top: 16px;
     
 }
 .space-style{
     margin-top: 10px;
 }
 .space-style2{
-    
+    padding-top: 12px;
+}
+.mobileapplink-style{
+    border-bottom:  1px solid rgb(187, 184, 184)  ;
+    padding-bottom: 10px;
 }
 
 .endlink{
+    display: flex;
+    justify-content: space-around;
     margin: 30px 20px;    
     font-size: 10px;
     padding-top: 10px;
